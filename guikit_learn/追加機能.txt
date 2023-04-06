@@ -1,0 +1,58 @@
+Cleared
+・予測モデルのpickleファイル保存　－ cleared
+・学習用CSVの保存 - cleared
+・coef_, intercept_のグラフ化、CSV保存 - cleared
+・feature_importancesのグラフ化、CSV保存 - cleared
+・決定木、ランダムフォレストのグラフ化 - cleared
+・予測モデルのハイパーパラメータの保存
+
+
+☆☆ 必須機能
+
+
+・Holdout(train-val) - test　の実装
+・CV(crossval) - test　の実装
+・CV splitterの実装
+
+☆　前ソフトに実装済みの機能（工数低）
+・r2のモデルごとの比較グラフ
+・PDPの保存
+
+
+
+★★　優先度高
+
+ 
+★　　優先度低
+相関係数のグラフ(UDG)機能
+
+
+VC次元の導出
+
+汎化の計算
+
+https://www.bogotobogo.com/python/scikit-learn/scikit_machine_learning_VC_Dimension_Shatter.php
+https://datascience.stackexchange.com/questions/16140/how-to-calculate-vc-dimension
+VC = 1
+found = False
+while True:
+    for point_distribution in all possible point distributions of VC+1 points:
+        allcorrect = True
+        for classdist in every way the classes could be assigned to the classes:
+            adjust classifier
+            if classifier can't classify everything correct:
+                allcorrect = False
+                break
+        if allcorrect:
+            VC += 1
+            continue
+    break
+
+# VC次元の計算
+https://www.researchgate.net/publication/221579361_Calculating_the_VC-dimension_of_decision_trees
+
+# vc次元の推定
+https://deepai.org/publication/use-of-vapnik-chervonenkis-dimension-in-model-selection
+
+# github
+https://github.com/jsleb333/hypergeometric_tail_inversion/blob/a8965ef481e865b1d6268cec67f12113386c8eed/scripts/bounds_comparison/bounds_comparison_d.py

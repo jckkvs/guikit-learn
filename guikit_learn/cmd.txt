@@ -1,0 +1,3 @@
+(py37_test) C:\Users\11665307\OneDrive - 三井化学株式会社\研究テーマ\python codes\guikit_learn>python -m guikit_learn.models.load_models
+
+(py37_test) C:\Users\11665307\OneDrive - 三井化学株式会社\研究テーマ\python codes\guikit_learn\guikit_learn>python -m guikitlearn --ui cui
