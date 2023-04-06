@@ -1,0 +1,2 @@
+include guikit_learn/models/*.ini
+include guikit_learn/datasets/*.ini
